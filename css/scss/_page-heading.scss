@@ -1,0 +1,23 @@
+.pageHeadingWrapper {
+
+  *+* {
+    margin-top: 5px;
+  }
+}
+
+.pageHeading {
+  font-size: 35px;
+  margin: 0;
+}
+
+.pageHeadingList {
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.pageHeadingLink {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--blue);
+  display: block;
+}

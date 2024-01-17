@@ -1,0 +1,12 @@
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 1s;
+}
+
+::view-transition-new(details-content1) {
+  animation: rotate-in 1s;
+}
+
+::view-transition-old(details-content1) {
+  animation: rotate-out 1s;
+}

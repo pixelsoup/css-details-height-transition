@@ -1,0 +1,24 @@
+summary {
+  cursor: pointer;
+}
+
+details {
+  padding: 5px;
+  border: 1px solid red;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: var(--detailsHeightClosed);
+  transition: height 150ms ease-in-out;
+
+  &.detailsOpened {
+    height: var(--detailsHeightOpened);
+  }
+}
+
+details+details {
+  margin-block-start: 15px;
+}
+
+.detailsContent {
+  padding: 10px;
+}
